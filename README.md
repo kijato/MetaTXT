@@ -11,12 +11,12 @@ A program futtatásához a Microsoft .NET 4.0 keretrendszer szükséges, mely le
 ## Verzió-történet
 1.6. A betöltött térkép megtekinthető a "Fájl/DAT megtekintés" menüpontban, illetve a "DATPlussz.exe" hibái javítva lettek.
 1.5.2. Apró javítások történtek és ettől kezdve a "DATPlussz.exe" használható pl "id" keresésre az alábbi módon:
-       1. Elindítjuk a "DATPlussz.exe"-t:
-          - első paraméterül adva a betöltendő DAT fájl nevét (és szükség esetén elérési útját);
-          - második paraméternek a "/m" (vagy "-m", "-q", "/q") karaktereket (a kis és nagybetű nem számít);
-       2. A betöltés (ami akár sokáig is tarthat...) végeztével egy rövid menüben lehet választani, hogy:
-          - egy adott "id"-t keresünk meg, vagy
-          - egy adott "felulet_id"-hez tartozó vonalszakaszokat kérdezünk le
+       - Elindítjuk a "DATPlussz.exe"-t:
+         - első paraméterül adva a betöltendő DAT fájl nevét (és szükség esetén elérési útját);
+         - második paraméternek a "/m" (vagy "-m", "-q", "/q") karaktereket (a kis és nagybetű nem számít);
+       - A betöltés (ami akár sokáig is tarthat...) végeztével egy rövid menüben lehet választani, hogy:
+         - egy adott "id"-t keresünk meg, vagy
+         - egy adott "felulet_id"-hez tartozó vonalszakaszokat kérdezünk le
        ( A menü elég kezdetleges, és az "id" kereső funkció eredménye sem olyan, mint kellene, de már használható... )
 1.5.1. Apró javítások, mint például:
        - hibakezelés DAT megnyitás nélküli mentési kísérletkor;
