@@ -3,11 +3,17 @@
 
 # MetaTxt Generátor v1.6
 Copyright (c) 2012, Kis János Tamás
-Leírás
+
+## Leírás
+
 A „MetaTxt” egy apró segédprogram, mely alapvetően az ingatlan-nyilvántartási célú földmérési és térképészeti tevékenység részletes szabályairól szóló 25/2013. (IV. 16.) VM rendelet 60.§ szakaszában meghatározott meta-adatok szöveges kiterjesztésű (meta.txt) fájlba történő mentésére szolgál.
-Rendszerkövetelmények
+
+## Rendszerkövetelmények
+
 A program futtatásához a Microsoft .NET 4.0 keretrendszer szükséges, mely letölthető például a következő helyről: http://www.microsoft.com/hu-hu/download/details.aspx?id=22833
-Verzió-történet
+
+## Verzió-történet
+
 1.6	A betöltött térkép megtekinthető a "Fájl/DAT megtekintés" menüpontban;
 	A "DATPlussz.exe" hibái javítva lettek.
 1.5.2	Apró javítások történtek és ettől kezdve a "DATPlussz.exe" használható pl "id" keresésre az alábbi módon:
@@ -33,11 +39,15 @@ tartalmazott;
 	Az adatszolgáltató és település választó lista mellett a fekvés kiválasztására is lehetőség volt;
 	A méretarány és a vetület kikeresése a táblázatból még nem működött.
 1.0	Az első változat kizárólag prototípusként szolgált, nem került kiadásra.
-Mielőtt használni kezded, jó, ha tudod…
+
+## Mielőtt használni kezded, jó, ha tudod…
+
 A program az induló adatait, mint pl az adatszolgáltató és a térképellátottság adatai egy-egy CSV állományból veszi annak érdekében, hogy ezt a részt könnyebb legyen testre szabni. (A CSV fájlok első, fejlécet tartalmazó sora nem kerül feldolgozásra!)
 Jellemzően egy-egy járásban csak egyetlen adatszolgáltató van, így az Adatszolgáltató.csv-ben elegendő csupán egy szervezetet feltüntetni. Ha egynél több szervezet van a listában, akkor a program engedi a kiválasztást, egyébként a választó-doboz nem lesz aktív.
 Hasonló mondható el a térképek adatait tartalmazó Térképellátottság.csv fájlról, azaz a szükségtelten sorokat ki kell/lehet törölni. Térkép-ellátottsági tájékoztatóban lévő adatok a FÖMI/Adminisztráció/Térképellátottság helyről származnak. A fájlban lévő adatok egy része nyilvánvalóan felesleges, de az igazság szerint, lusta voltam minden felesleges adatot kitörölni... ;)
-Használat
+
+## Használat
+
 0.	A program nem igényel önálló telepítést, csupán a ZIP-ben lévő állományokat kell egy szabadon megválasztható könyvtárba másolni.
 1.	A program indítása a MetaTxt.exe futtatásával történik. (A DatPlussz.exe pár darab tárolt eljárás miatt kell, önálló funkciója nincs. E program az első parancssori paraméterként megadott DAT fájl-ról ad statisztikai adatokat.)
 2.	Indítás után ki kell választani az adatszolgáltató nevét, feltéve, hogy az elsőként látható nem megfelelő.
@@ -50,10 +60,13 @@ Használat
 9.	A legegyszerűbb nyomtatási lehetőség:
 	9/a.	Start menü / Beállítások / Nyomtatók és faxok, majd a megfelelő nyomtató megnyitása;
 	9/b.	A hitelesítő bizonylat elkészítése után bármely fájlkezelő programból a mentett állományt a "fogd és vidd" módszerrel a nyomtató ablakába kell dobni. (Ekkor "előugrik" az "rtf" fájlokhoz társított program és a fájl tartalmát elküldi a nyomtatóra.)
-Engedélyek
+
+## Engedélyek
 Ez a segédprogram alapvetően ingyenes.
 Lehetőséged van szabadon terjeszteni a segédprogramot floppy lemezen, CD-ROM-on, Interneten, vagy bármilyen más módon, de a Copyright és az engedély szövegét minden másolaton meg kell őrizni, továbbá a kereskedelmi célú felhasználás nem engedélyezett!
 A szoftvert (én, a szerző) azzal a reménnyel terjesztem, hogy hasznos lesz, de MINDENFÉLE GARANCIA VÁLLALÁSA NÉLKÜL.
 A szerző nem tehető felelőssé a véletlen, követlen, vagy közvetett kárért, adatvesztésért, vagy bármely más ok miatt.
-Visszacsatolás
-Ha bármilyen problémád, javaslatod, megjegyzésed van, vagy hibát találtál a programban, kérlek küldj egy "megfelelő" üzenetet a kjt@takarnet.hu címre!
+
+## Visszacsatolás
+
+Ha bármilyen problémád, javaslatod, megjegyzésed van, vagy hibát találtál a programban, kérlek küldj egy "megfelelő" üzenetet a kijato dot gmail.com címre!
