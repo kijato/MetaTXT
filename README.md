@@ -9,8 +9,7 @@ A „MetaTxt” egy apró segédprogram, mely alapvetően az ingatlan-nyilvánta
 A program futtatásához a Microsoft .NET 4.0 keretrendszer szükséges, mely letölthető például a következő helyről: http://www.microsoft.com/hu-hu/download/details.aspx?id=22833
 
 ## Verzió-történet
-1.6. A betöltött térkép megtekinthető a "Fájl/DAT megtekintés" menüpontban;
-     A "DATPlussz.exe" hibái javítva lettek.
+1.6. A betöltött térkép megtekinthető a "Fájl/DAT megtekintés" menüpontban, illetve a "DATPlussz.exe" hibái javítva lettek.
 1.5.2. Apró javítások történtek és ettől kezdve a "DATPlussz.exe" használható pl "id" keresésre az alábbi módon:
        1. Elindítjuk a "DATPlussz.exe"-t:
           - első paraméterül adva a betöltendő DAT fájl nevét (és szükség esetén elérési útját);
