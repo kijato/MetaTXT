@@ -1,8 +1,6 @@
 # MetaTXT
 
-
-# MetaTxt Generátor v1.6
-Copyright (c) 2012, Kis János Tamás
+#### Copyright (c) 2012, Kis János Tamás
 
 ## Leírás
 
