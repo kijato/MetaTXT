@@ -12,30 +12,30 @@ A program futtatásához a Microsoft .NET 4.0 keretrendszer szükséges, mely le
 
 ## Verzió-történet
 
-- 1.6	A betöltött térkép megtekinthető a "Fájl/DAT megtekintés" menüpontban;
-	A "DATPlussz.exe" hibái javítva lettek.
-- 1.5.2	Apró javítások történtek és ettől kezdve a "DATPlussz.exe" használható pl "id" keresésre az alábbi módon:
-	1. Elindítjuk a "DATPlussz.exe"-t:
-	- első paraméterül adva a betöltendő DAT fájl nevét (és szükség esetén elérési útját);
-	- második paraméternek a "/m" (vagy "-m", "-q", "/q") karaktereket (a kis és nagybetű nem számít);
-	2. A betöltés (ami akár sokáig is tarthat...) végeztével egy rövid menüben lehet választani, hogy:
-		1. egy adott "id"-t keresünk meg, vagy
-		2. egy adott "felulet_id"-hez tartozó vonalszakaszokat kérdezünk le.
-	( A menü elég kezdetleges, és az "id" kereső funkció eredménye sem olyan, mint kellene, de már használható... )
-- 1.5.1	Apró javítások, mint például:
-	- hibakezelés DAT megnyitás nélküli mentési kísérletkor;
-	- a hitelesítő bizonylat nevének módosítási lehetősége.
-- 1.5	Elkészült az automatikus hitelesítő bizonylat készítő funkció;
-	A fájl megnyitása után az ablak automatikusan átméreteződik.
-- 1.4	Elkészült ez a leírás, azaz az első "Súgó".
-- 1.3	A futtaható állomány kapott egy beágyazott ikont;
-	A fájl megnyitás és mentés során fellépő hibák kezelése megtörtént.
-- 1.2	Az ablak átméretezése során az egyes elemek kitöltik a rendelkezésükre álló helyet;
-	Valamennyi, a megnyitott állományokból kinyerhető és szükséges adat mentésre került.
-- 1.1	Ez volt az első valamelyest használható változat, alapvetően semmiféle hibakezelést nem tartalmazott;
-	Az adatszolgáltató és település választó lista mellett a fekvés kiválasztására is lehetőség volt;
-	A méretarány és a vetület kikeresése a táblázatból még nem működött.
-1.0	Az első változat kizárólag prototípusként szolgált, nem került kiadásra.
+1.6. A betöltött térkép megtekinthető a "Fájl/DAT megtekintés" menüpontban;
+     A "DATPlussz.exe" hibái javítva lettek.
+1.5.2. Apró javítások történtek és ettől kezdve a "DATPlussz.exe" használható pl "id" keresésre az alábbi módon:
+       1. Elindítjuk a "DATPlussz.exe"-t:
+          - első paraméterül adva a betöltendő DAT fájl nevét (és szükség esetén elérési útját);
+          - második paraméternek a "/m" (vagy "-m", "-q", "/q") karaktereket (a kis és nagybetű nem számít);
+       2. A betöltés (ami akár sokáig is tarthat...) végeztével egy rövid menüben lehet választani, hogy:
+          1. egy adott "id"-t keresünk meg, vagy
+          2. egy adott "felulet_id"-hez tartozó vonalszakaszokat kérdezünk le.
+          ( A menü elég kezdetleges, és az "id" kereső funkció eredménye sem olyan, mint kellene, de már használható... )
+1.5.1. Apró javítások, mint például:
+       - hibakezelés DAT megnyitás nélküli mentési kísérletkor;
+       - a hitelesítő bizonylat nevének módosítási lehetősége.
+1.5. Elkészült az automatikus hitelesítő bizonylat készítő funkció;
+     A fájl megnyitása után az ablak automatikusan átméreteződik.
+1.4. Elkészült ez a leírás, azaz az első "Súgó".
+1.3. A futtaható állomány kapott egy beágyazott ikont;
+     A fájl megnyitás és mentés során fellépő hibák kezelése megtörtént.
+1.2. Az ablak átméretezése során az egyes elemek kitöltik a rendelkezésükre álló helyet;
+     Valamennyi, a megnyitott állományokból kinyerhető és szükséges adat mentésre került.
+1.1. Ez volt az első valamelyest használható változat, alapvetően semmiféle hibakezelést nem tartalmazott;
+     Az adatszolgáltató és település választó lista mellett a fekvés kiválasztására is lehetőség volt;
+     A méretarány és a vetület kikeresése a táblázatból még nem működött.
+1.0. Az első változat kizárólag prototípusként szolgált, nem került kiadásra.
 
 ## Mielőtt használni kezded, jó, ha tudod…
 
@@ -55,8 +55,8 @@ Hasonló mondható el a térképek adatait tartalmazó Térképellátottság.csv
 7. Ha a MetaTxt/MetaRtf fülön látható adatok megfelelnek, akkor a "Meta.txt mentés" gombra kattintva megadható a célfájl neve.
 8. A hitelesítő bizonylatként mentett fájl neve automatikusan képződik, de szükség esetén módosítható, illetve az RTF állomány szükség esetén utólag is szabadon szerkeszthető (Erre a Winword helyett itt is a Wordpad-ot javaslom.).
 9. A legegyszerűbb nyomtatási lehetőség:
-9/a. Start menü / Beállítások / Nyomtatók és faxok, majd a megfelelő nyomtató megnyitása;
-9/b. A hitelesítő bizonylat elkészítése után bármely fájlkezelő programból a mentett állományt a "fogd és vidd" módszerrel a nyomtató ablakába kell dobni. (Ekkor "előugrik" az "rtf" fájlokhoz társított program és a fájl tartalmát elküldi a nyomtatóra.)
+   9/a. Start menü / Beállítások / Nyomtatók és faxok, majd a megfelelő nyomtató megnyitása;
+   9/b. A hitelesítő bizonylat elkészítése után bármely fájlkezelő programból a mentett állományt a "fogd és vidd" módszerrel a nyomtató ablakába kell dobni. (Ekkor "előugrik" az "rtf" fájlokhoz társított program és a fájl tartalmát elküldi a nyomtatóra.)
 
 ## Engedélyek
 
